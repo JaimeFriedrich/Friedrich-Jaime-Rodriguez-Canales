@@ -307,37 +307,6 @@ section {
     width: 100%;
 }
 
-.home-imgHover {
-    position: absolute;
-    top: 0;
-    right: 39px;
-    width: 700px;
-    height: 100%;
-    background: transparent;
-    transition: 3s;
-    animation: manipActiveHover .1s forwards;
-    animation-delay: 4s;
-    pointer-events: none;
-}
-
-.home-imgHover:hover {
-    background: #081b29;
-    opacity: .8;
-
-}
-
-.home-imgHover::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 120%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 3s;
-    z-index: 100;
-}
 
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
@@ -589,11 +558,11 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-    width: 40%;
+    width: 30%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 35%;
+    width: 25%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
